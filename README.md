@@ -1,16 +1,16 @@
 # minimum_flask
 
-1. install and start redis:
-$brew install redis
-$redis-server
+install and start redis:
+1. $brew install redis
+2. $redis-server
 
-2. install requirements:
-$pip install -r requirements.txt
+install requirements:
+1. $pip install -r requirements.txt
 
-3. create log and file storage folders
-$ mkdir ../minimum_flask_log
-$ touch ../minimum_flask_log/flask_backend.log
-$ mkdir ../minimum_flask_storage
+create log and file storage folders:
+1. $mkdir ../minimum_flask_log
+2. $touch ../minimum_flask_log/flask_backend.log
+3. $mkdir ../minimum_flask_storage
 
-4. start flask
-python run.py
+start flask:
+1. python run.py
